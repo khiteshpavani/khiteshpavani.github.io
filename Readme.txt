@@ -1,4 +1,6 @@
 README
+*NOTE: The package contains a small sample test data set of 64 images which can be tested using the already trained model. In order to do the training the original data set can be downloaded from the Kaggle Site. In order to perform testing on a small sample data set, simply run "python test.py"
+
 1) Download the NIH Chest X-ray Dataset from Kaggle into the data (presently empty) folder provided.
 2) For running training Run "python train.py"
 3) For running testing make sure the model ("my_saved_model.h5") is present in the folder and run "python test.py"
